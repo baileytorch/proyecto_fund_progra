@@ -1,2 +1,1 @@
-asignaturas = ['Química', 'Biología', 'Matemáticas']
-# asignaturas = []
+asignaturas = ['Quimica', 'Biologia', 'Matematicas', 'Lenguaje']
