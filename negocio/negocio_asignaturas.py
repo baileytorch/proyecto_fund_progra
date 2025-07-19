@@ -45,3 +45,17 @@ def modificar_asignatura():
         guardar_asignatura(datos_guardar)
     except:
         print('Valor NO corresponde')
+
+
+def eliminar_asignatura():
+    listado_asignaturas()
+    indicar_asignatura = input('Indique el número de la asignatura: ')
+    try:
+        numero_asignatura = int(indicar_asignatura)
+        asignaturas = obtener_listado_asignaturas()
+        if len(asignaturas) > 0:
+            asignaturas.pop(numero_asignatura - 1)
+        datos_guardar = f'asignaturas = {asignaturas}'
+        guardar_asignatura(datos_guardar)
+    except:
+        print('Valor NO corresponde')

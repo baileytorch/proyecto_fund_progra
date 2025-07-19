@@ -13,5 +13,7 @@
 # 09.07.2025: Se define menú principal
 # 14.07.2025: Actualizando el acceso a los menús v1.1.0
 # 19.07.2025: Se agrega metodología para escribir datos en archivos v1.2.0
+# 19.07.2025: Se agrega metodología para modificar datos en archivos v1.3.0
+# 19.07.2025: Se agrega metodología para eliminar datos en archivos v1.4.0
 
-version_actual = '1.2.0'
+version_actual = '1.4.0'
