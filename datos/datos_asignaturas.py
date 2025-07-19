@@ -1,4 +1,12 @@
 import os
+from datos.asignaturas import asignaturas
+
+
+def obtener_listado_asignaturas():
+    if len(asignaturas) > 0:
+        return asignaturas
+    else:
+        return []
 
 
 def guardar_asignatura(listado_asignaturas):

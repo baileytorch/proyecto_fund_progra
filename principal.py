@@ -1,7 +1,7 @@
 from auxiliares.version import version_actual
 from datos.asignaturas import asignaturas
 from negocio.negocio_menu import menu_principal, menu_asignaturas
-from negocio.negocio_asignaturas import listado_asignaturas, agregar_asignatura
+from negocio.negocio_asignaturas import listado_asignaturas, agregar_asignatura, modificar_asignatura
 
 
 def programa_principal():
@@ -23,7 +23,7 @@ def programa_principal():
                 elif opcion_asignaturas == '2':
                     agregar_asignatura()
                 elif opcion_asignaturas == '3':
-                    pass
+                    modificar_asignatura()
                 elif opcion_asignaturas == '4':
                     pass
                 elif opcion_asignaturas == '0':
